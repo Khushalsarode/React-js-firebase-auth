@@ -1,0 +1,81 @@
+/* HomePage.css */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Colors */
+:root {
+  --primary-color: #007bff; /* Blue */
+  --secondary-color: #6c757d; /* Gray */
+  --text-color: #333;
+  --background-color: #f8f9fa;
+}
+
+.home-page {
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.home-page h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.home-page p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.home-page h3 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.home-page .statistics-board {
+  margin-top: 60px;
+}
+
+.home-page .statistics-board h3 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+
+.home-page .stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted size */
+  gap: 30px;
+}
+
+.home-page .stat-item {
+  background-color: #fff;
+  padding: 20px; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-page .stat-item h4 {
+  font-size: 1.4rem; /* Reduced font size */
+  margin-bottom: 10px; /* Reduced margin */
+  color: var(--primary-color);
+}
+
+.home-page .stat-item p {
+  font-size: 1.2rem; /* Reduced font size */
+  color: var(--secondary-color);
+}
+
+/* Value styles */
+.home-page .stat-item .value {
+  font-size: 1.6rem; /* Adjusted font size */
+  font-weight: bold;
+  color: #dc3545; /* Red color */
+  margin-top: 10px;
+  text-align: center;
+}
